@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Follow me On 　･ﾟ🕊
+# Reach me 　･ﾟ🕊
 　　･ *ﾟ｡　　 *
 　 ･ ﾟ*｡･ﾟ🕊｡
 　　　🕊･｡°*. ﾟ
@@ -34,4 +34,4 @@ Here are some ideas to get you started:
 </p>
 
 
-![kk](https://github.com/nhxxyn/hayate-san.com/blob/main/assets/images/kk.jpg?raw=true)
+![kk](https://github.com/hayate-san/hayate-san/blob/main/assets/images/kk.jpg?raw=true)
