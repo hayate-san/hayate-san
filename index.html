@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>hayate-san</title>
+		<!-- ICON -->
+		<link rel="icon" type="image/png" href="images/logo_github.png"/>
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			/* Style the body */
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			  margin: 0;
+			}
+
+			/* Header/logo Title */
+			.header {
+			  padding: 80px;
+			  text-align: center;
+			 /* background: #1abc9c; */
+			  color: white;
+			  background-image: url('images/header.jpg');
+			  background-repeat: no-repeat;
+			  background-attachment: fixed;
+			  background-size: 100% 100%;
+			  
+			}
+
+			/* Increase the font size of the heading */
+			.header h1 {
+			  font-size: 40px;
+			}
+
+			/* Style the top navigation bar */
+			.navbar {
+			  overflow: hidden;
+			  background-color: #333;
+			}
+
+			/* Style the navigation bar links */
+			.navbar a {
+			  float: left;
+			  display: block;
+			  color: white;
+			  text-align: center;
+			  padding: 14px 20px;
+			  text-decoration: none;
+			}
+
+			/* Right-aligned link */
+			.navbar a.right {
+			  float: right;
+			}
+
+			/* Change color on hover */
+			.navbar a:hover {
+			  background-color: #ddd;
+			  color: black;
+			}
+
+			/* Column container */
+			.row {  
+			  display: -ms-flexbox; /* IE10 */
+			  display: flex;
+			  -ms-flex-wrap: wrap; /* IE10 */
+			  flex-wrap: wrap;
+			}
+
+			/* Create two unequal columns that sits next to each other */
+			/* Sidebar/left column */
+			.side {
+			  -ms-flex: 30%; /* IE10 */
+			  flex: 30%;
+			  background-color: #f1f1f1;
+			  padding: 20px;
+			}
+
+			/* Main column */
+			.main {   
+			  -ms-flex: 70%; /* IE10 */
+			  flex: 70%;
+			  background-color: white;
+			  padding: 20px;
+			}
+
+			/* Fake image, just for this example*/
+			.fakeimg {
+			  background-color: #aaa;
+			  width: 100%;
+			  padding: 20px;
+			} 
+
+			/* Footer */
+			.footer {
+			  padding: 10px;
+			  text-align: center;
+			  background: #ddd;
+			}
+
+			/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+			@media screen and (max-width: 700px) {
+			  .row {   
+				flex-direction: column;
+			  }
+			}
+
+			/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+			@media screen and (max-width: 400px) {
+			  .navbar a {
+				float: none;
+				width: 100%;
+			  }
+			}
+			
+		</style>
+		
+		<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+			new Crate({
+				server: '803866426644758568', // Chat Me
+				channel: '803866426644758571' // #general
+			})
+			
+		</script>	
+		
+	</head>
+	
+	<body>
+
+		<div class="header">
+		  <h1>EIYOO</h1>
+		  <p>A website created by hayate-san.</p>
+		</div>
+
+		<div class="navbar">
+			<a href="#" class="active">Home</a>
+			<a href="#" class="left">Profile</a>
+		 	<a href="#" class="left">Portfolio</a>
+			<a href="mailto: nhnatheline@gmail.com" class="right">
+			<img alt="icon_finder_gmail" src="images/mail_send_icon.png" width="28" height="28"></a>
+		</div>
+
+		<div class="row">
+		
+			 <div class="side">
+				<h2>About Me</h2>
+				<h5>Photo of me:</h5>
+				<img src="images/avtr.jpg"  style="height:200px;"/>
+				<p>I write code</p>
+				<h3>Contact Me Here </h3>
+				<p>Don't forget to follow me on socmed</p>
+				<a href="https://www.instagram.com/nhxxyn/"><img border="0" alt="ig" src="images/icon_ig.png" width="50" height="50"></a>
+				<a href="https://github.com/hayate-san"><img border="0" alt="logo_github" src="images/logo_github.png" width="50" height="50"></a>
+				<a href="https://discord.com/channels/698395318542270465"><img border="0" alt="icon_finder_discord" src="images/icon_discord.png" width="50" height="50"></a>
+				<a href="https://my.linkedin.com/in/nurul-hayat-995233110"><img border="0" alt="icon_finder_linkedln" src="images/icon_linkedln.png" width="50" height="50"></a>
+				<a href="https://www.youtube.com/channel/UCbw15TYu2aIJEKMvAtoZxUA"><img border="0" alt="icon_finder_youtube" src="images/icon_youtube.png" width="50" height="50"></a>
+			</div>
+
+			<div class="main">
+				<h2>Project List</h2>
+				<h5>Last Updated,Jan 26, 2020</h5>
+				<div class="fakeimg" style="height:200px;">Image</div>
+				<p><a href="https://github.com/hayate-san/selfLearn_PHP-Basic">BASIC PHP</a></p>
+				<h2>TITLE HEADING</h2>
+				<h5>Title description, Sep 2, 2017</h5>
+				<div class="fakeimg" style="height:200px;">Image</div>
+				<p>Some text..</p>
+				<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+			</div>
+		</div>
+		
+		<div class="footer">
+		  <h2>© https://<a href="https://github.com/hayate-san"><img border="0" alt="logo_github" src="images/logo_github.png" height="25"></a>/hayate-san</h2>
+		</div>
+
+	</body>
+</html>
