@@ -1,182 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>hayate-san</title>
-		<!-- ICON -->
-		<link rel="icon" type="image/png" href="images/logo_github.png"/>
-	
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<style>
-			* {
-			  box-sizing: border-box;
-			}
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
 
-			/* Style the body */
-			body {
-			  font-family: Arial, Helvetica, sans-serif;
-			  margin: 0;
-			}
+<section style="background-color: #eee;">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col">
+        <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">User</a></li>
+            <li class="breadcrumb-item active" aria-current="page">User Profile</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
 
-			/* Header/logo Title */
-			.header {
-			  padding: 80px;
-			  text-align: center;
-			 /* background: #1abc9c; */
-			  color: white;
-			  background-image: url('images/header.jpg');
-			  background-repeat: no-repeat;
-			  background-attachment: fixed;
-			  background-size: 100% 100%;
-			  
-			}
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card mb-4">
+          <div class="card-body text-center">
+            <img src="https://github.githubassets.com/images/mona-loading-dark.gif" style="width: 150px;">
+            <h5 class="my-3">Hayate-san</h5>
+            <p class="text-muted mb-1">Junior Workforce Portfolio</p>
+            <p class="text-muted mb-4">"I'm not good with explaining how computer works. Hence, I let the code itself talk"</p>
+          </div>
+        </div>
+        <div class="card mb-4 mb-lg-0">
+          <div class="card-body p-0"><br>
+          	<p align="center" class="text-muted mb-1">Follow/Subscribe</p>
+			<p align="center">
+			  <a href="https://hayate-san.github.io"><img src="https://img.icons8.com/clouds/75/000000/github.png"/></a>
+			  <a href="https://discord.com/channels/698395318542270465"/><img src="https://img.icons8.com/clouds/75/000000/discord.png"/></a>
+			  <a href="https://www.youtube.com/channel/UCbw15TYu2aIJEKMvAtoZxUA"><img src="https://img.icons8.com/clouds/75/000000/youtube.png"/</a>
+			  <a href="https://my.linkedin.com/in/nurul-hayat-995233110/"><img src="https://img.icons8.com/clouds/75/000000/linkedin.png"/></a>
+			</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-8">
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Nickname</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">Hayate-san | nhxxyn</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Email</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">nhnatheline@gmail.com</p>
+              </div>
+            </div>
+       
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Address</p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">Johore, Malaysia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-4 mb-md-0">
+              <div class="card-body">
+                <p class="mb-4"><span class="text-primary font-italic me-1">Skills
+                </p>
+                <p class="mb-1" style="font-size: .77rem;">Web Design</p>
+                
+                <div class="progress rounded" style="height: 5px;">
+                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                
+                <p class="mt-4 mb-1" style="font-size: .77rem;">Backend API</p>
+                <div class="progress rounded mb-2" style="height: 5px;">
+                  <div class="progress-bar" role="progressbar" style="width: 66%" aria-valuenow="66"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4 mb-md-0">
+              <div class="card-body">
+                <p class="mb-4"><span class="text-primary font-italic me-1">Project Involvement
+                </p>
+                <p class="mb-1" style="font-size: .77rem;">Web Development</p>
+                <div class="progress rounded" style="height: 5px;">
+                  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="mt-4 mb-1" style="font-size: .77rem;">Process Satellite Image</p>
+                <div class="progress rounded" style="height: 5px;">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="72"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
 
-			/* Increase the font size of the heading */
-			.header h1 {
-			  font-size: 40px;
-			}
 
-			/* Style the top navigation bar */
-			.navbar {
-			  overflow: hidden;
-			  background-color: #333;
-			}
-
-			/* Style the navigation bar links */
-			.navbar a {
-			  float: left;
-			  display: block;
-			  color: white;
-			  text-align: center;
-			  padding: 14px 20px;
-			  text-decoration: none;
-			}
-
-			/* Right-aligned link */
-			.navbar a.right {
-			  float: right;
-			}
-
-			/* Change color on hover */
-			.navbar a:hover {
-			  background-color: #ddd;
-			  color: black;
-			}
-
-			/* Column container */
-			.row {  
-			  display: -ms-flexbox; /* IE10 */
-			  display: flex;
-			  -ms-flex-wrap: wrap; /* IE10 */
-			  flex-wrap: wrap;
-			}
-
-			/* Create two unequal columns that sits next to each other */
-			/* Sidebar/left column */
-			.side {
-			  -ms-flex: 30%; /* IE10 */
-			  flex: 30%;
-			  background-color: #f1f1f1;
-			  padding: 20px;
-			}
-
-			/* Main column */
-			.main {   
-			  -ms-flex: 70%; /* IE10 */
-			  flex: 70%;
-			  background-color: white;
-			  padding: 20px;
-			}
-
-			/* Fake image, just for this example*/
-			.fakeimg {
-			  background-color: #aaa;
-			  width: 100%;
-			  padding: 20px;
-			} 
-
-			/* Footer */
-			.footer {
-			  padding: 10px;
-			  text-align: center;
-			  background: #ddd;
-			}
-
-			/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-			@media screen and (max-width: 700px) {
-			  .row {   
-				flex-direction: column;
-			  }
-			}
-
-			/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-			@media screen and (max-width: 400px) {
-			  .navbar a {
-				float: none;
-				width: 100%;
-			  }
-			}
-			
-		</style>
-		
-		<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-			new Crate({
-				server: '803866426644758568', // Chat Me
-				channel: '803866426644758571' // #general
-			})
-			
-		</script>	
-		
-	</head>
-	
-	<body>
-
-		<div class="header">
-		  <h1>EIYOO</h1>
-		  <p>A website created by hayate-san.</p>
-		</div>
-
-		<div class="navbar">
-			<a href="#" class="active">Home</a>
-			<a href="#" class="left">Profile</a>
-		 	<a href="#" class="left">Portfolio</a>
-			<a href="mailto: nhnatheline@gmail.com" class="right">
-			<img alt="icon_finder_gmail" src="images/mail_send_icon.png" width="28" height="28"></a>
-		</div>
-
-		<div class="row">
-		
-			 <div class="side">
-				<h2>About Me</h2>
-				<h5>Photo of me:</h5>
-				<img src="images/avtr.jpg"  style="height:200px;"/>
-				<p>I write code</p>
-				<h3>Contact Me Here </h3>
-				<p>Don't forget to follow me on socmed</p>
-				<a href="https://www.instagram.com/nhxxyn/"><img border="0" alt="ig" src="images/icon_ig.png" width="50" height="50"></a>
-				<a href="https://github.com/hayate-san"><img border="0" alt="logo_github" src="images/logo_github.png" width="50" height="50"></a>
-				<a href="https://discord.com/channels/698395318542270465"><img border="0" alt="icon_finder_discord" src="images/icon_discord.png" width="50" height="50"></a>
-				<a href="https://my.linkedin.com/in/nurul-hayat-995233110"><img border="0" alt="icon_finder_linkedln" src="images/icon_linkedln.png" width="50" height="50"></a>
-				<a href="https://www.youtube.com/channel/UCbw15TYu2aIJEKMvAtoZxUA"><img border="0" alt="icon_finder_youtube" src="images/icon_youtube.png" width="50" height="50"></a>
-			</div>
-
-			<div class="main">
-				<h2>Project List</h2>
-				<h5>Last Updated,Jan 26, 2020</h5>
-				<div class="fakeimg" style="height:200px;">Image</div>
-				<p><a href="https://github.com/hayate-san/selfLearn_PHP-Basic">BASIC PHP</a></p>
-				<h2>TITLE HEADING</h2>
-				<h5>Title description, Sep 2, 2017</h5>
-				<div class="fakeimg" style="height:200px;">Image</div>
-				<p>Some text..</p>
-				<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-			</div>
-		</div>
-		
-		<div class="footer">
-		  <h2>© https://<a href="https://github.com/hayate-san"><img border="0" alt="logo_github" src="images/logo_github.png" height="25"></a>/hayate-san</h2>
-		</div>
-
-	</body>
+</body>
 </html>
