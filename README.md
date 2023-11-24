@@ -11,7 +11,7 @@
 　　　　･　　ﾟ🕊 ｡
 
 <p align="center">
-  <a href="https://gitlab.com/hayate-san"><img src="https://img.icons8.com/color/480w/gitlab.png"/></a>
+  <a href="https://gitlab.com/hayate-san"><img src="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png"/></a>
   <a href="https://hayate-san.github.io"><img src="https://img.icons8.com/clouds/75/000000/github.png"/></a>
   <a href="https://discord.com/channels/698395318542270465"><img src="https://img.icons8.com/clouds/75/000000/discord.png"/></a>
   <a href="https://www.youtube.com/channel/UCbw15TYu2aIJEKMvAtoZxUA"><img src="https://img.icons8.com/clouds/75/000000/youtube.png"/></a>
